@@ -26,6 +26,8 @@ binary package to the place what you want and execute the `Install.cmd` for it.
 
 [VC-LTL release]: https://github.com/Chuyu-Team/VC-LTL5/releases
 
+And you need to execute `apply-patches.bat` to apply the necessary patch.
+
 After that, you can execute `onekey-build-x64.bat` to compile our customized
 version, execute this script in the console or terminal window you created is
 recommend because you can see the detailed result information in the end.
