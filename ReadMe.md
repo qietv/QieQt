@@ -5,9 +5,15 @@ Customized version of Qt 6 source code used in QieLive project.
 This work based on [Mile.Qt](https://github.com/ProjectMile/Mile.Qt) but the
 source code tree is rebased.
 
-Huge thanks to [Yuhang Zhao](https://github.com/wangwenx190) for his patch.
-This patch makes us only need to release Qt 6 version of QieLive project only,
-and still support Windows 7 Service Pack 1.
+Huge thanks to [Yuhang Zhao] for his patch. This patch makes us only need to
+release Qt 6 version of QieLive project only, and still support Windows 7
+Service Pack 1.
+
+This version also use [qtbase patch 507057] for solving Qt Widgets margin issue
+in Windows. Thanks to the suggestion from [Yuhang Zhao].
+
+[Yuhang Zhao]: https://github.com/wangwenx190
+[qtbase patch 507057]: https://codereview.qt-project.org/c/qt/qtbase/+/507057
 
 ## Differences from Mile.Qt
 
